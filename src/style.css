@@ -220,3 +220,40 @@ button:disabled {
   margin: 0;
   font-size: 1.05rem;
 }
+
+@media (max-width: 600px) {
+  main {
+    padding: 12px;
+  }
+
+  .site-header h1 {
+    font-size: 1.2rem;
+  }
+
+  .catalog {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card h2 {
+    font-size: 0.95rem;
+  }
+
+  .add-button,
+  .checkout-btn {
+    padding: 12px;
+  }
+
+  .qty button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .cart-drawer {
+    width: 100%;
+  }
+}
