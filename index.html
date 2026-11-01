@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LuLocc</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 id="store-name">LuLocc</h1>
+      <button id="cart-toggle" class="cart-button" type="button" aria-label="Abrir carrinho">
+        Carrinho (<span id="cart-count">0</span>)
+      </button>
+    </header>
+
+    <main>
+      <p id="status" class="status">Carregando produtos...</p>
+      <section id="catalog" class="catalog" aria-live="polite"></section>
+    </main>
+
+    <div id="overlay" class="overlay" hidden></div>
+
+    <aside id="cart-drawer" class="cart-drawer" aria-label="Carrinho" aria-hidden="true">
+      <div class="cart-header">
+        <h2>Seu carrinho</h2>
+        <button id="cart-close" type="button" aria-label="Fechar carrinho">&times;</button>
+      </div>
+      <ul id="cart-items" class="cart-items"></ul>
+      <div class="cart-footer">
+        <p class="cart-total">
+          <span>Total</span>
+          <strong id="cart-total">R$ 0,00</strong>
+        </p>
+        <button id="checkout-btn" class="checkout-btn" type="button">Finalizar pelo WhatsApp</button>
+      </div>
+    </aside>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

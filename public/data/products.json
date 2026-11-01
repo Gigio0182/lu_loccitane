@@ -1,0 +1,26 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Produto exemplo 1",
+    "description": "Descrição do produto.",
+    "price": 49.9,
+    "image": "images/placeholder.svg",
+    "available": true
+  },
+  {
+    "id": "prod-002",
+    "name": "Produto exemplo 2",
+    "description": "Descrição do produto.",
+    "price": 79.9,
+    "image": "images/placeholder.svg",
+    "available": true
+  },
+  {
+    "id": "prod-003",
+    "name": "Produto exemplo 3",
+    "description": "Descrição do produto.",
+    "price": 25,
+    "image": "images/placeholder.svg",
+    "available": false
+  }
+]
